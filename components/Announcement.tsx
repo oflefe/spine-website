@@ -18,7 +18,7 @@ export default function Announcement() {
               </div> */}
               <div className="video-btn-wrapper text-center">
                 <p>
-                  Değerli Meslektaşlarımız, İlkini 7 Ocak 2023 yılında
+                 {` Değerli Meslektaşlarımız, İlkini 7 Ocak 2023 yılında
                   İstanbul’da yaptığımız “Omurga Cerrahisinde Komplikasyonlar ve
                   Önleme Yöntemleri” toplantımıza İstanbul içinden ve dışından
                   çok yoğun katılım ve ilgi olmuştu. Cerrahi pratiğimizin büyük
@@ -33,7 +33,7 @@ export default function Announcement() {
                   komplikasyonları anlamayı, onlarla baş etmeyi öğrenmeyi ve
                   önlemeyi amaçlamaktayız. Kayıt ve toplantı hakkında bilgileri
                   yakında sizlerle paylaşıyor olacağız. 16 Mart 2024 tarihinde
-                  toplantıda görüşmek dileğiyle. Saygı ve selamlarımızla.
+                  toplantıda görüşmek dileğiyle. Saygı ve selamlarımızla.`}
                 </p>
               </div>
             </div>
