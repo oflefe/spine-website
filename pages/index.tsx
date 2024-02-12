@@ -1,11 +1,11 @@
 import { Inter } from "next/font/google";
 import React from "react";
 import HeroArea from "../components/HeroArea";
-import Schedule from "@/components/Schedule";
-import Committee from "@/components/Committee";
-import Announcement from "@/components/Announcement";
-import SpeakersList from "@/components/SpeakersList";
-import EventContactInfo from "@/components/EventContactInfo";
+import Schedule from "../components/Schedule";
+import Committee from "../components/Committee";
+import Announcement from "../components/Announcement";
+import SpeakersList from "../components/SpeakersList";
+import EventContactInfo from "../components/EventContactInfo";
 
 const inter = Inter({ subsets: ["latin"] });
 const mapUrl =
