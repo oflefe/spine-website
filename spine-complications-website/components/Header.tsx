@@ -31,32 +31,37 @@ export default function Header() {
                   <ul id="nav" className="navbar-nav ms-auto">
                     <li className="nav-item">
                       <a className="page-scroll active" href="#home">
-                        Home
+                        Anasayfa
+                        {/* Home
+Organizasyon komitesi
+Duyuru
+Fakülte
+İletişim-adres */}
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#about">
-                        About Us
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="page-scroll" href="#video">
-                        Video
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="page-scroll" href="#pricing">
+                      <a className="page-scroll" href="#program">
                         Program
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#blog">
-                        Blog
+                      <a className="page-scroll" href="#organizers">
+                        Organizasyon Komitesi
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="" href="#0">
-                        Contact
+                      <a className="page-scroll" href="#announcement">
+                        Duyuru
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="" href="#faculty">
+                        Fakülte
+                      </a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="" href="#contact">
+                        İletişim
                       </a>
                     </li>
                   </ul>

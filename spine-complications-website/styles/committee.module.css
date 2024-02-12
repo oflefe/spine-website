@@ -1,0 +1,38 @@
+#meet-the-team {
+  background: #f9f9f9;
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.team-member {
+  margin-bottom: 30px;
+}
+
+.member-photo img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.member-info h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.member-info p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.social-links a {
+  color: #333;
+  margin: 0 5px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}

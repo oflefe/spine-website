@@ -814,6 +814,19 @@ p {
   z-index: 1;
 }
 
+.event-time {
+  width: 200px;
+}
+
+.single-event {
+  background-color: #282e63;
+  margin-bottom: 10px;
+}
+
+.single-event h3 {
+  font-size: 1rem;
+}
+
 .upcoming-section .single-counter:hover .map-img {
   opacity: 1;
   visibility: visible;
