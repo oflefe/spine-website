@@ -8,16 +8,10 @@ export default function HeroArea() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="hero-content">
-                <h1>
-                  You are using free lite version of <span>Evently</span>
-                </h1>
-                <p>
-                  Please, purchase full version of the template to get all
-                  sections, elements and permission to remove footer credits.
-                </p>
-                <a href="javascript:void(0)" className="main-btn btn-hover">
-                  Buy Template
-                </a>
+                <h1>Omurga Cerrahisinde Komplikasyonlar</h1>
+                <p style={{fontSize: 32}}>Tümör, Dejeneratif, Deformite</p>
+                <h3>16 Mart 2024</h3>
+                <h4> Medicana Ataköy Hastanesi, İstanbul</h4>
               </div>
             </div>
             <div className="col-lg-6">

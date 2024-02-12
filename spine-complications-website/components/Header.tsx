@@ -7,9 +7,6 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="index.html">
-                  <img src="img/logo/logo.svg" alt="Logo" />
-                </a>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -45,7 +42,7 @@ Fakülte
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#organizers">
+                      <a className="page-scroll" href="#meet-the-team">
                         Organizasyon Komitesi
                       </a>
                     </li>

@@ -1,0 +1,22 @@
+/* components/EventContactInfo.module.css */
+.contactInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contactInfo {
+  flex: 1;
+  text-align: left; /* Ensures contact info is left-aligned */
+  padding-left: 10%;
+}
+
+.contactInfo p {
+  margin-top: 15px;
+  font-size: large;
+}
+
+.mapContainer {
+  flex: 1;
+  /* Adjust margins/padding as needed */
+}

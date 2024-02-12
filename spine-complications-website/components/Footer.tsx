@@ -41,12 +41,7 @@ export default function Footer() {
         <div className="copyright-area">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <p className="mb-0 text-center text-md-start">
-                Design and Developed By
-                <a href="https://Uideck.com" rel="nofollow" target="_blank">
-                  UIdeck
-                </a>
-              </p>
+              <p className="mb-0 text-center text-md-start">Copyright 2024</p>
             </div>
             <div className="col-md-6">
               <ul className="socials">

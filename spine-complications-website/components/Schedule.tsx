@@ -8,11 +8,8 @@ export default function Schedule() {
           <div className="row justify-content-center">
             <div className="col-xxl-6 col-xl-7 col-lg-8">
               <div className="section-title mb-60 text-center">
-                <h1>Upcoming Events</h1>
-                <p>
-                  Explore our schedule to stay informed about our latest events,
-                  workshops, and seminars.
-                </p>
+                <h1>Program</h1>
+                <p>Kongremizin program detayları aşağıdaki gibidir</p>
               </div>
             </div>
           </div>
@@ -21,8 +18,8 @@ export default function Schedule() {
               <div className="event-schedule">
                 <div className="single-event d-flex align-items-center">
                   <div className="event-time">
-                    <span>Feb 2, 2024</span>
-                    <span>10:00 AM - 12:00 PM</span>
+                    <span>16 Mart 2024 </span> <br></br>
+                    <span> 10:00 - 12:00</span>
                   </div>
                   <div className="event-name" style={{ textAlign: "start" }}>
                     <h3>
@@ -33,8 +30,9 @@ export default function Schedule() {
 
                 <div className="single-event d-flex align-items-center">
                   <div className="event-time" style={{ textAlign: "start" }}>
-                    <span>Feb 5, 2024</span>
-                    <span>02:00 PM - 04:00 PM</span>
+                    <span>16 Mart 2024 </span>
+                    <br></br>
+                    <span> 13:00 - 15:00</span>
                   </div>
                   <div className="event-name">
                     <h3>
@@ -46,8 +44,9 @@ export default function Schedule() {
 
                 <div className="single-event d-flex align-items-center">
                   <div className="event-time">
-                    <span>Feb 10, 2024</span>
-                    <span>01:00 PM - 03:00 PM</span>
+                    <span>16 Mart 2024</span>
+                    <br></br>
+                    <span>15:00 - 16:00</span>
                   </div>
                   <div className="event-name">
                     <h3>
