@@ -4,6 +4,10 @@ const nextConfig = {
   basePath: "/spine-website",
   assetPrefix: "/spine-website/",
   output: "export",
+  images: {
+    loader: "akamai",
+    path: "",
+  },
 };
 
 export default nextConfig;
