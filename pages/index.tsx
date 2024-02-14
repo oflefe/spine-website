@@ -6,6 +6,7 @@ import Committee from "../components/Committee";
 import Announcement from "../components/Announcement";
 import SpeakersList from "../components/SpeakersList";
 import EventContactInfo from "../components/EventContactInfo";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 const mapUrl =
@@ -25,6 +26,10 @@ const speakersData = [
 export default function Home() {
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Page Title</title>
+      </Head>
       <HeroArea />
       <Schedule />
       <Announcement />

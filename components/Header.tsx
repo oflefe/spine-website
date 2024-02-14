@@ -1,5 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+
 export default function Header() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [activeNavItem, setActiveNavItem] = useState("#home");
+
   return (
     <header>
       <div className="navbar-area">
@@ -10,10 +14,9 @@ export default function Header() {
                 <button
                   className="navbar-toggler"
                   type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
+                  onClick={() => setIsNavExpanded(!isNavExpanded)}
                   aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
+                  aria-expanded={isNavExpanded ? "true" : "false"}
                   aria-label="Toggle navigation"
                 >
                   <span className="toggler-icon"></span>
@@ -22,18 +25,15 @@ export default function Header() {
                 </button>
 
                 <div
-                  className="collapse navbar-collapse sub-menu-bar"
+                  className={`collapse navbar-collapse sub-menu-bar ${
+                    isNavExpanded ? "show" : ""
+                  }`}
                   id="navbarSupportedContent"
                 >
                   <ul id="nav" className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <a className="page-scroll active" href="#home">
+                      <a className="page-scroll" href="#home">
                         Anasayfa
-                        {/* Home
-Organizasyon komitesi
-Duyuru
-Fakülte
-İletişim-adres */}
                       </a>
                     </li>
                     <li className="nav-item">
