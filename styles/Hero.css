@@ -2,6 +2,8 @@
     background-image: url("../public/hero-bg.webp");
     position: relative;
     padding: 120px 0 0;
+    height: 600px !important;
+    background-position: center !important;
     z-index: 2;
   }
   

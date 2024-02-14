@@ -3,22 +3,12 @@ import React from "react";
 export default function Announcement() {
   return (
     <div>
-      <section
-        id="announcement"
-        className="video-section img-bg mt pt-5"
-      >
-        <div className="container p-0">
+      <section id="announcement" className="video-section img-bg  pt-5">
+        <div className="container ">
           <div className="row justify-content-center mx-0">
-            <div className="col-xxl-6 col-xl-7 col-lg-8">
-              {/* <div className="section-title text-center mb-80">
-                <h1>
-                  Watch our Conference <br />
-                  video
-                </h1>
-              </div> */}
-              <div className="video-btn-wrapper text-center announcement-text">
-                <p>
-                 {` Değerli Meslektaşlarımız, İlkini 7 Ocak 2023 yılında
+            <div className="text-center announcement-text">
+              <p>
+                {` Değerli Meslektaşlarımız, İlkini 7 Ocak 2023 yılında
                   İstanbul’da yaptığımız “Omurga Cerrahisinde Komplikasyonlar ve
                   Önleme Yöntemleri” toplantımıza İstanbul içinden ve dışından
                   çok yoğun katılım ve ilgi olmuştu. Cerrahi pratiğimizin büyük
@@ -34,8 +24,7 @@ export default function Announcement() {
                   önlemeyi amaçlamaktayız. Kayıt ve toplantı hakkında bilgileri
                   yakında sizlerle paylaşıyor olacağız. 16 Mart 2024 tarihinde
                   toplantıda görüşmek dileğiyle. Saygı ve selamlarımızla.`}
-                </p>
-              </div>
+              </p>
             </div>
           </div>
         </div>
