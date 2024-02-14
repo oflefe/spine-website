@@ -1,0 +1,34 @@
+.speakersGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Creates a 5-column grid */
+  grid-gap: 20px; /* Adjust the gap between items as needed */
+  margin: 20px; /* Add some spacing around the grid */
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 1200px) {
+  .speakersGrid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for smaller screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .speakersGrid {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* 3 columns for even smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .speakersGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .speakersGrid {
+    grid-template-columns: 1fr; /* 1 column for mobile screens */
+  }
+}

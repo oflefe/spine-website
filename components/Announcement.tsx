@@ -5,10 +5,10 @@ export default function Announcement() {
     <div>
       <section
         id="announcement"
-        className="video-section img-bg mt-120 pt-110 pb-200"
+        className="video-section img-bg mt pt-5"
       >
-        <div className="container">
-          <div className="row justify-content-center">
+        <div className="container p-0">
+          <div className="row justify-content-center mx-0">
             <div className="col-xxl-6 col-xl-7 col-lg-8">
               {/* <div className="section-title text-center mb-80">
                 <h1>
@@ -16,7 +16,7 @@ export default function Announcement() {
                   video
                 </h1>
               </div> */}
-              <div className="video-btn-wrapper text-center">
+              <div className="video-btn-wrapper text-center announcement-text">
                 <p>
                  {` Değerli Meslektaşlarımız, İlkini 7 Ocak 2023 yılında
                   İstanbul’da yaptığımız “Omurga Cerrahisinde Komplikasyonlar ve

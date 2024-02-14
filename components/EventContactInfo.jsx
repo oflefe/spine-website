@@ -2,39 +2,39 @@
 import React from "react";
 import styles from "@/styles/EventContactInfo.module.css"; // Assuming CSS Module usage for styling
 
-const EventContactInfo = ({ email, phone, address, mapUrl }) => {
+const EventContactInfo = ({ emails, numbers, address, mapUrl }) => {
   return (
     <section id="contact">
       <div className={styles.contactInfoContainer}>
         <div className={styles.contactInfo}>
-          {email && (
-            <p>
-              <strong>Email:</strong> <a href={`mailto:${email}`}>{email}</a>
-            </p>
-          )}
-          {phone && (
-            <p>
-              <strong>Phone:</strong> <a href={`tel:${phone}`}>{phone}</a>
-            </p>
-          )}
-          {address && (
-            <p>
-              <strong>Address:</strong> {address}
-            </p>
-          )}
+          <p>
+            <strong>Email: </strong>
+            {emails.map((email, index) => (
+              <a key={index} href={`mailto:${email}`} style={{ marginLeft: 5 }}>
+                {email}
+              </a>
+            ))}
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            {numbers.map((phone,index) => (
+              <a key={index} href={`tel:${phone}`} style={{ marginLeft: 5 }}>
+                {phone}
+              </a>
+            ))}
+          </p>
+          {/* <p>
+            <strong>Address:</strong> <span>{address}</span>
+          </p> */}
         </div>
-        {mapUrl && (
-          <div className={styles.mapContainer}>
-            <iframe
-              src={mapUrl}
-              width="500"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-            ></iframe>
-          </div>
-        )}
+        <div className={styles.mapContainer}>
+          <iframe
+            src={mapUrl}
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 .hero-area {
-    background-image: url("../public/img/hero/hero-bg.png");
+    background-image: url("../public/hero-bg.webp");
     position: relative;
     padding: 120px 0 0;
     z-index: 2;
@@ -12,7 +12,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(38, 41, 77, 0.9);
+    background: rgba(38, 41, 77, 0.5);
     z-index: -1;
   }
   
@@ -76,19 +76,7 @@
     position: relative;
     z-index: 1;
   }
-  
-  .event-time {
-    width: 200px;
-  }
-  
-  .single-event {
-    background-color: #282e63;
-    margin-bottom: 10px;
-  }
-  
-  .single-event h3 {
-    font-size: 1rem;
-  }
+
   
   .upcoming-section .single-counter:hover .map-img {
     opacity: 1;

@@ -17,10 +17,19 @@
 @import "./Navbar.css";
 @import "./Hero.css";
 @import "./Duyuru.css";
+@import "./SingleEvent.css";
+@import "./Schedule.css";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
 
 html {
   scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -145,11 +154,11 @@ p {
 }
 
 .img-bg {
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 600px;
 }
 
 .error {
@@ -408,124 +417,7 @@ p {
 }
 
 /* ==================== video css ================== */
-.video-section {
-  position: relative;
-  background-image: url("../public/img/video/video-bg.jpg");
-  z-index: 1;
-}
 
-.video-section::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(40, 46, 99, 0.56);
-  z-index: -1;
-}
-
-.video-section .video-btn-wrapper .video-btn {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #fff;
-  color: #4e6ef1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-  margin: auto;
-}
-
-.video-section .video-btn-wrapper .video-btn::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  transform: scale(1.4);
-  z-index: -1;
-}
-
-/* =============== pricing css ============= */
-.pricing-section .single-pricing {
-  padding: 60px 30px;
-  background: #282e63;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-.pricing-section .single-pricing::after,
-.pricing-section .single-pricing::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: #26294d;
-}
-
-.pricing-section .single-pricing::after {
-  right: -17px;
-}
-
-.pricing-section .single-pricing::before {
-  left: -17px;
-}
-
-.pricing-section .single-pricing .best-offer {
-  position: absolute;
-  background: #4e6ef1;
-  color: #fff;
-  padding: 5px 100px;
-  right: -90px;
-  top: 28px;
-  transform: rotate(45deg);
-}
-
-.pricing-section .single-pricing h3 {
-  font-size: 25px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}
-
-.pricing-section .single-pricing .price {
-  padding: 12px 30px;
-  font-size: 30px;
-  font-weight: 700;
-  border-radius: 90px;
-  background: #26294d;
-  margin-bottom: 30px;
-}
-
-.pricing-section .single-pricing .list {
-  margin-bottom: 30px;
-}
-
-.pricing-section .single-pricing .list li {
-  font-size: 16px;
-  line-height: 35px;
-}
-
-.pricing-section .single-pricing .main-btn {
-  padding: 15px 30px;
-  border: 2px solid transparent;
-  color: #fff;
-}
-
-.pricing-section .single-pricing .main-btn.border-btn {
-  border-color: #505478;
-  background: none;
-}
 
 /*===========================
     11.Blog css 

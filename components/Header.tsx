@@ -5,7 +5,7 @@ export default function Header() {
   const [activeNavItem, setActiveNavItem] = useState("#home");
 
   return (
-    <header>
+
       <div className="navbar-area">
         <div className="container">
           <div className="row align-items-center">
@@ -43,7 +43,7 @@ export default function Header() {
                     </li>
                     <li className="nav-item">
                       <a className="page-scroll" href="#meet-the-team">
-                        Organizasyon Komitesi
+                        Düzenleme Kurulu
                       </a>
                     </li>
                     <li className="nav-item">
@@ -68,6 +68,5 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </header>
   );
 }

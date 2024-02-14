@@ -1,0 +1,40 @@
+.single-event {
+  display: flex;
+  background-color: #282e63;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.event-time {
+  flex-basis: 200px;
+  text-align: start;
+}
+
+.event-details-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.event-name h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.event-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-detail .speaker {
+  margin-left: auto;
+  text-align: right;
+}
+
+.event-detail span {
+  font-size: 13px;
+}

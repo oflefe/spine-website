@@ -1,60 +1,196 @@
 import React from "react";
+import SingleEvent, { Event } from "./SingleEvent";
+import { eventList2, eventList3, eventList4, eventList5 } from "@/constants";
 
-export default function Schedule() {
+type Schedule = {
+  eventList: Event[];
+};
+
+export default function Schedule({ eventList }: Schedule) {
   return (
     <>
-      <section id="program" className="schedule-section pt-150 pb-120">
+      <section id="program" className="schedule-section pt-70 pb-80">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xxl-6 col-xl-7 col-lg-8">
               <div className="section-title mb-60 text-center">
                 <h1>Program</h1>
-                <p>Kongremizin program detayları aşağıdaki gibidir</p>
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
+          {/* SECTION 1 */}
+          <p>
+            <strong>
+              Dejeneratif Omurga Cerrahisinde Komplikasyonlar ve Yönetimi
+            </strong>
+          </p>
+          <p>
+            <strong>Moderatörler:</strong> Mehmet Zileli, Mehmet Aydoğan
+          </p>
+          <div className="row justify-content-center event-container">
+            <div className="col-lg-12">
               <div className="event-schedule">
-                <div className="single-event d-flex align-items-center">
-                  <div className="event-time">
-                    <span>16 Mart 2024 </span> <br></br>
-                    <span> 10:00 - 12:00</span>
-                  </div>
-                  <div className="event-name" style={{ textAlign: "start" }}>
-                    <h3>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h3>
-                  </div>
-                </div>
-
-                <div className="single-event d-flex align-items-center">
-                  <div className="event-time" style={{ textAlign: "start" }}>
-                    <span>16 Mart 2024 </span>
-                    <br></br>
-                    <span> 13:00 - 15:00</span>
-                  </div>
-                  <div className="event-name">
-                    <h3>
-                      Sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </h3>
-                  </div>
-                </div>
-
-                <div className="single-event d-flex align-items-center">
-                  <div className="event-time">
-                    <span>16 Mart 2024</span>
-                    <br></br>
-                    <span>15:00 - 16:00</span>
-                  </div>
-                  <div className="event-name">
-                    <h3>
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                      laboris nisi.
-                    </h3>
-                  </div>
-                </div>
+                {eventList.map(
+                  (
+                    {
+                      time,
+                      eventName,
+                      presentation,
+                      discussion,
+                      omitPresentation,
+                    },
+                    index
+                  ) => (
+                    <SingleEvent
+                      key={index}
+                      time={time}
+                      eventName={eventName}
+                      presentation={presentation}
+                      omitPresentation={omitPresentation}
+                      discussion={discussion}
+                    />
+                  )
+                )}
+              </div>
+            </div>
+          </div>
+          {/* SECTION 2 */}
+          <p>
+            <strong>
+              Omurga Deformitelerinde Cerrahi Komplikasyonlar ve Yönetimi
+            </strong>
+          </p>
+          <p>
+            <strong>Moderatörler:</strong> Emre Acaroğlu, Onur Yaman
+          </p>
+          <div className="row justify-content-center event-container">
+            <div className="col-lg-12">
+              <div className="event-schedule">
+                {eventList2.map(
+                  (
+                    {
+                      time,
+                      eventName,
+                      presentation,
+                      discussion,
+                      omitPresentation,
+                    },
+                    index
+                  ) => (
+                    <SingleEvent
+                      key={index}
+                      time={time}
+                      eventName={eventName}
+                      presentation={presentation}
+                      omitPresentation={omitPresentation}
+                      discussion={discussion}
+                    />
+                  )
+                )}
+              </div>
+            </div>
+          </div>
+          {/* SECTION 3 */}
+          <p>
+            <strong>
+              Omurga Tümörleri Cerrahisinde Komplikasyonlar ve Yönetimi
+            </strong>
+          </p>
+          <p>
+            <strong>Moderatörler:</strong> Kemal Koç, Önder Ofluoğlu
+          </p>
+          <div className="row justify-content-center event-container">
+            <div className="col-lg-12">
+              <div className="event-schedule">
+                {eventList3.map(
+                  (
+                    {
+                      time,
+                      eventName,
+                      presentation,
+                      discussion,
+                      omitPresentation,
+                    },
+                    index
+                  ) => (
+                    <SingleEvent
+                      key={index}
+                      time={time}
+                      eventName={eventName}
+                      presentation={presentation}
+                      omitPresentation={omitPresentation}
+                      discussion={discussion}
+                    />
+                  )
+                )}
+              </div>
+            </div>
+          </div>
+          {/* SECTION 4 */}
+          <p>
+            <strong>Olgu Tartışmaları-Dejeneratif-Deformite-Tümör</strong>
+          </p>
+          <p>
+            <strong>Moderatörler:</strong> Mehmet Zileli, Ender Ofluoğlu
+          </p>
+          <div className="row justify-content-center event-container">
+            <div className="col-lg-12">
+              <div className="event-schedule">
+                {eventList4.map(
+                  (
+                    {
+                      time,
+                      eventName,
+                      presentation,
+                      discussion,
+                      omitPresentation,
+                    },
+                    index
+                  ) => (
+                    <SingleEvent
+                      key={index}
+                      time={time}
+                      eventName={eventName}
+                      presentation={presentation}
+                      omitPresentation={omitPresentation}
+                      discussion={discussion}
+                    />
+                  )
+                )}
+              </div>
+            </div>
+          </div>
+          {/* SECTION 5 */}
+          <p>
+            <strong>Olgu Tartışmaları-Dejeneratif-Deformite-Tümör</strong>
+          </p>
+          <p>
+            <strong>Moderatörler:</strong> Serdar Kahraman, Salim Şentürk
+          </p>
+          <div className="row justify-content-center event-container">
+            <div className="col-lg-12">
+              <div className="event-schedule">
+                {eventList5.map(
+                  (
+                    {
+                      time,
+                      eventName,
+                      presentation,
+                      discussion,
+                      omitPresentation,
+                    },
+                    index
+                  ) => (
+                    <SingleEvent
+                      key={index}
+                      time={time}
+                      eventName={eventName}
+                      presentation={presentation}
+                      omitPresentation={omitPresentation}
+                      discussion={discussion}
+                    />
+                  )
+                )}
               </div>
             </div>
           </div>

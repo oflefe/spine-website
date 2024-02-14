@@ -1,6 +1,5 @@
 .video-section {
     position: relative;
-    background-image: url("../public/img/video/video-bg.jpg");
     z-index: 1;
   }
   
@@ -13,6 +12,11 @@
     left: 0;
     background: rgba(40, 46, 99, 0.56);
     z-index: -1;
+  }
+
+  .announcement-text p {
+    font-size: 1.34rem;
+    line-height: 1.5;
   }
   
   .video-section .video-btn-wrapper .video-btn {

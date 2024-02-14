@@ -14,11 +14,6 @@ export default function HeroArea() {
                 <h4> Medicana Ataköy Hastanesi, İstanbul</h4>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="hero-img">
-                <img src="assets/img/hero/hero-img.jpg" alt="" />
-              </div>
-            </div>
           </div>
         </div>
       </section>
