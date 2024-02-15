@@ -488,6 +488,7 @@ p {
 
 .navbar-brand {
   padding: 0;
+  z-index: -3;
 }
 
 .navbar-brand img {

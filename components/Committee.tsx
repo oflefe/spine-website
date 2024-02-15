@@ -19,7 +19,7 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/jon-doe.jpg"
+                    src="/ender-ofluoglu.jpeg"
                     alt="member"
                     width={100}
                     height={100}
@@ -35,7 +35,7 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/jon-doe.jpg"
+                    src="/onur-yaman.jpeg"
                     alt="member"
                     width={100}
                     height={100}
@@ -58,7 +58,7 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/jon-doe.jpg"
+                    src="/salim-senturk.jpeg"
                     alt="member"
                     width={100}
                     height={100}
@@ -81,7 +81,7 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/jon-doe.jpg"
+                    src="/eyup-varol.jpeg"
                     alt="member"
                     width={100}
                     height={100}
@@ -104,7 +104,7 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/jon-doe.jpg"
+                    src="/mehmet-zileli.jpeg"
                     alt="member"
                     width={100}
                     height={100}

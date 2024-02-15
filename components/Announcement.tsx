@@ -3,7 +3,7 @@ import React from "react";
 export default function Announcement() {
   return (
     <div>
-      <section id="announcement" className="video-section img-bg  pt-5">
+      <section id="announcement" className="video-section img-bg  ">
         <div className="container ">
           <div className="row justify-content-center mx-0">
             <div className="text-center announcement-text">

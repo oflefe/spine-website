@@ -1,17 +1,25 @@
 /* components/EventContactInfo.module.css */
+
 .contactInfoContainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-left: 8%;
+  padding-right: 8%;
+  height: 300px;
+  gap: 10px;
 }
 
 .contactInfo {
   flex: 1;
   text-align: left; /* Ensures contact info is left-aligned */
-  padding-left: 10%;
+  align-self: center;
 }
 
 @media (max-width: 767px) {
+  .contactInfoContainer {
+    padding: 0;
+  }
   .contactInfo p strong {
     font-size: 16px;
   }
@@ -24,7 +32,6 @@
 }
 
 .contactInfo p {
-
   font-size: large;
 }
 
@@ -32,6 +39,7 @@
   flex: 1;
   position: relative;
   overflow: hidden;
+  height: 100%;
   /* Assuming a 16:9 aspect ratio for the iframe */
 
   /* Adjust margins/padding as needed */

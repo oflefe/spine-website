@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 
 export default function Header() {
@@ -11,6 +12,9 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
+              <a className="navbar-brand" href="index.html">
+                  <Image src={"/Logo.png"} layout="fill" alt={"logo"} />
+                </a>
                 <button
                   className="navbar-toggler"
                   type="button"

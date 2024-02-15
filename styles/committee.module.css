@@ -11,8 +11,9 @@
   border-radius: 50%;
   margin-bottom: 15px;
   width: 100px;
-  height: 100px;
-  object-fit: cover;
+  height: 130px;
+
+  object-position: center;
 }
 
 .member-info h3 {
