@@ -62,7 +62,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "09:00-09:15",
-    eventName: "Lomber disk cerrahisi komplikasyonları Olgu Sunumu (5 dk)",
+    eventName: "Lomber disk cerrahisi komplikasyonları",
     presentation: {
       speaker: "Barış Çöllüoğlu",
     },
@@ -72,7 +72,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "09:15-09:30",
-    eventName: "Lomber dar kanal cerrahisi komplikasyonları Olgu sunumu (5 dk)",
+    eventName: "Lomber dar kanal cerrahisi komplikasyonları",
     presentation: {
       speaker: "Serdar Ercan",
     },
@@ -83,7 +83,7 @@ export const eventList1: Event[] = [
   {
     time: "09:30-09:45",
     eventName:
-      "Lomber füzyon cerrahisi (Dejeneratif skolyoz) komplikasyonları Olgu sunumu (5 dk)",
+      "Lomber füzyon cerrahisi (Dejeneratif skolyoz) komplikasyonları",
     presentation: {
       speaker: "Erdinç Özek",
     },
@@ -94,7 +94,7 @@ export const eventList1: Event[] = [
   {
     time: "09:45-10:00",
     eventName:
-      "Servikal disk hernisi cerrahisi komplikasyonları Olgu sunumu (5 dk)",
+      "Servikal disk hernisi cerrahisi komplikasyonları",
     presentation: {
       speaker: "Erdal Yayla",
     },
@@ -105,7 +105,7 @@ export const eventList1: Event[] = [
   {
     time: "10:00-10:15",
     eventName:
-      "Servikal dar kanal cerrahisi komplikasyonları Olgu sunumu- 5 dk",
+      "Servikal dar kanal cerrahisi komplikasyonları",
     presentation: {
       speaker: "Hakan Millet",
     },
@@ -130,7 +130,7 @@ export const eventList2: Event[] = [
   {
     time: "10:30-10:45",
     eventName:
-      "İdiopatik skolyoz cerrahisinin komplikasyonları Olgu sunumu (5 dk)",
+      "İdiopatik skolyoz cerrahisinin komplikasyonları",
     presentation: {
       speaker: "Erkin Özeren",
     },
@@ -140,7 +140,7 @@ export const eventList2: Event[] = [
   },
   {
     time: "10:45-11:00",
-    eventName: "VBT cerrahi komplikasyonları Olgu sunumu (5 dk)",
+    eventName: "VBT cerrahi komplikasyonları",
     presentation: {
       speaker: "Abdulhalim Akar",
     },
@@ -150,7 +150,7 @@ export const eventList2: Event[] = [
   },
   {
     time: "11:00-11:15",
-    eventName: "Konjenital skolyoz cerrahi komplikasyonları Olgu sunumu (5 dk)",
+    eventName: "Konjenital skolyoz cerrahi komplikasyonları",
     presentation: {
       speaker: "Ülkün Ünsal",
     },
@@ -164,7 +164,7 @@ export const eventList3: Event[] = [
   {
     time: "11:15-11:30",
     eventName:
-      "Metastatik omurga tümörlerinin cerrahi komplikasyonları Olgu sunumu (5 dk)",
+      "Metastatik omurga tümörlerinin cerrahi komplikasyonları",
     presentation: {
       speaker: "Bülent Bozyiğit",
     },
@@ -175,7 +175,7 @@ export const eventList3: Event[] = [
   {
     time: "11:30-11:45",
     eventName:
-      "Primer omurga tümörlerinin cerrahi komplikasyonları Olgu sunumu (5 dk)",
+      "Primer omurga tümörlerinin cerrahi komplikasyonları",
     presentation: {
       speaker: "Melih Üçler",
     },
@@ -186,7 +186,7 @@ export const eventList3: Event[] = [
   {
     time: "11:45-12:00",
     eventName:
-      "Sakral ve pelvik tümörlerin cerrahi komplikasyonları Olgu sunumu (5 dk)",
+      "Sakral ve pelvik tümörlerin cerrahi komplikasyonları",
     presentation: {
       speaker: "İlhan Yılmaz",
     },
@@ -210,7 +210,7 @@ export const eventList3: Event[] = [
 export const eventList4: Event[] = [
   {
     time: "13:00-13:15",
-    eventName: "Olgu sunumu 1.",
+    eventName: "Olgu sunumu 1",
     omitPresentation: true,
     presentation: {
       speaker: "Gökhan Gökçe",
@@ -221,7 +221,7 @@ export const eventList4: Event[] = [
   },
   {
     time: "13:15-13:30",
-    eventName: "Olgu sunumu 2.",
+    eventName: "Olgu sunumu 2",
     omitPresentation: true,
     presentation: {
       speaker: "Hakan Ak",
@@ -232,7 +232,7 @@ export const eventList4: Event[] = [
   },
   {
     time: "13:30-13:45",
-    eventName: "Olgu sunumu 3.",
+    eventName: "Olgu sunumu 3",
     omitPresentation: true,
     presentation: {
       speaker: "Cengiz Gömleksiz",
@@ -243,7 +243,7 @@ export const eventList4: Event[] = [
   },
   {
     time: "13:45-14:00",
-    eventName: "Olgu sunumu 4.",
+    eventName: "Olgu sunumu 4",
     omitPresentation: true,
     presentation: {
       speaker: "Metehan Eseoğlu",
@@ -254,7 +254,7 @@ export const eventList4: Event[] = [
   },
   {
     time: "14:00-14:15",
-    eventName: "Olgu sunumu 5.",
+    eventName: "Olgu sunumu 5",
     omitPresentation: true,
     presentation: {
       speaker: "Tolga Dündar",
@@ -265,7 +265,7 @@ export const eventList4: Event[] = [
   },
   {
     time: "14:15-14:30",
-    eventName: "Olgu sunumu 6.",
+    eventName: "Olgu sunumu 6",
     omitPresentation: true,
     presentation: {
       speaker: "Hakan korkmaz",
@@ -276,7 +276,7 @@ export const eventList4: Event[] = [
   },
   {
     time: "14:30-14:45",
-    eventName: "Olgu Sunumu 7.",
+    eventName: "Olgu Sunumu 7",
     omitPresentation: true,
     presentation: {
       speaker: "Mahmut Demirkol",
