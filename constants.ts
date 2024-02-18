@@ -1,7 +1,8 @@
 import { Event } from "./components/SingleEvent";
 
 export const mapUrl =
-  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12047.603289156283!2d29.1066507!3d40.9836525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7d47788c567%3A0x5bc7016e8254311e!2sMedicana%20Ata%C5%9Fehir%20Hastanesi!5e0!3m2!1str!2str!4v1707762542369!5m2!1str!2str";
+  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12048.98572394858!2d28.856267!3d40.9760844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa34b9af304cd%3A0x3d04214cfe60ef35!2sMedicana%20Atak%C3%B6y%20Hastanesi!5e0!3m2!1str!2str!4v1708280820072!5m2!1str!2str";
+
 export const speakersData = [
   { name: "Emre Acaroğlu" },
   { name: "Mehmet Aydoğan" },
@@ -82,8 +83,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "09:30-09:45",
-    eventName:
-      "Lomber füzyon cerrahisi (Dejeneratif skolyoz) komplikasyonları",
+    eventName: "Lomber füzyon cerrahisi (Dejeneratif skolyoz) komplikasyonları",
     presentation: {
       speaker: "Erdinç Özek",
     },
@@ -93,8 +93,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "09:45-10:00",
-    eventName:
-      "Servikal disk hernisi cerrahisi komplikasyonları",
+    eventName: "Servikal disk hernisi cerrahisi komplikasyonları",
     presentation: {
       speaker: "Erdal Yayla",
     },
@@ -104,8 +103,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "10:00-10:15",
-    eventName:
-      "Servikal dar kanal cerrahisi komplikasyonları",
+    eventName: "Servikal dar kanal cerrahisi komplikasyonları",
     presentation: {
       speaker: "Hakan Millet",
     },
@@ -129,8 +127,7 @@ export const eventList1: Event[] = [
 export const eventList2: Event[] = [
   {
     time: "10:30-10:45",
-    eventName:
-      "İdiopatik skolyoz cerrahisinin komplikasyonları",
+    eventName: "İdiopatik skolyoz cerrahisinin komplikasyonları",
     presentation: {
       speaker: "Erkin Özeren",
     },
@@ -163,8 +160,7 @@ export const eventList2: Event[] = [
 export const eventList3: Event[] = [
   {
     time: "11:15-11:30",
-    eventName:
-      "Metastatik omurga tümörlerinin cerrahi komplikasyonları",
+    eventName: "Metastatik omurga tümörlerinin cerrahi komplikasyonları",
     presentation: {
       speaker: "Bülent Bozyiğit",
     },
@@ -174,8 +170,7 @@ export const eventList3: Event[] = [
   },
   {
     time: "11:30-11:45",
-    eventName:
-      "Primer omurga tümörlerinin cerrahi komplikasyonları",
+    eventName: "Primer omurga tümörlerinin cerrahi komplikasyonları",
     presentation: {
       speaker: "Melih Üçler",
     },
@@ -185,8 +180,7 @@ export const eventList3: Event[] = [
   },
   {
     time: "11:45-12:00",
-    eventName:
-      "Sakral ve pelvik tümörlerin cerrahi komplikasyonları",
+    eventName: "Sakral ve pelvik tümörlerin cerrahi komplikasyonları",
     presentation: {
       speaker: "İlhan Yılmaz",
     },
