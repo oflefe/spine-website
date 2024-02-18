@@ -59,23 +59,14 @@
 }
 
 .navbar-brand {
-  padding-top: 50%;
+  padding-top: 0%;
 }
 
-.navbar-brand img {
-  object-fit: contain;
-  width: 140% !important;
-  position: relative !important;
-  height: unset !important;
-}
-
-@media(max-width: 767px){
+@media (max-width: 767px) {
   .navbar-brand {
     padding-top: 0;
   }
 }
-
-
 
 .navbar-toggler {
   padding: 0;

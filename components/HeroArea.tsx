@@ -15,19 +15,29 @@ export default function HeroArea() {
                 <h4> Medicana Ataköy Hastanesi, İstanbul</h4>
               </div>
               <div className="row">
-                <div className="col-3">
-                  <a className="navbar-brand" href="index.html">
-                    <Image src={"/arel-logo.png"} layout="fill" alt={"logo"} />
-                  </a>
+                <div className="col-3 text-center navbar-brand">
+                  <Image src={"/arel-logo.png"} layout="fill" alt={"logo"} />
                 </div>
-                <div className="col-3">
-                  <a className="navbar-brand" href="index.html">
+                <div className="col-3 text-center navbar-brand">
+                  <Image
+                    className="medicana-logo"
+                    src={"/medicana-logo.png"}
+                    layout="fill"
+                    alt={"logo"}
+                  />
+                </div>
+                <div className="row">
+                  <div className="col-3 navbar-brand text-center">
                     <Image
-                      src={"/medicana-logo.png"}
+                      className="mess-logo"
+                      src={"/mess-logo.png"}
                       layout="fill"
                       alt={"logo"}
                     />
-                  </a>
+                  </div>
+                  <div className="col-3 navbar-brand text-center justify-content-center">
+                    <Image src={"/wfns-logo.png"} layout="fill" alt={"logo"} />
+                  </div>
                 </div>
               </div>
             </div>
