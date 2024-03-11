@@ -189,7 +189,17 @@ export const eventList3: Event[] = [
     },
   },
   {
-    time: "12:00-13:00",
+    time: "12:00-12:15",
+    eventName: "Komplike omurga vakalarında anestezinin önemi ve yönetimi",
+    presentation: {
+      speaker: "Kenan Açıkgöz",
+    },
+    discussion: {
+      speaker: "Musa Gitmez",
+    },
+  },
+  {
+    time: "12:15-13:00",
     eventName: "Yemek Arası",
     omitPresentation: true,
     presentation: {
