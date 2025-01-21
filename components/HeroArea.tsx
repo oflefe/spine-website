@@ -10,6 +10,7 @@ export default function HeroArea() {
             <div className="col-lg-6">
               <div className="hero-content">
                 <h1>Omurga Cerrahisinde Komplikasyonlar-3</h1>
+                <p style={{ fontSize: 32 }}>Olgu Çözümlemeleri</p>
                 <h3>15 Mart 2025</h3>
                 <h4> Memorial Ankara Hastanesi, Ankara</h4>
               </div>
