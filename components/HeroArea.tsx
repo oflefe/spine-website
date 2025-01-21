@@ -9,10 +9,9 @@ export default function HeroArea() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="hero-content">
-                <h1>Omurga Cerrahisinde Komplikasyonlar</h1>
-                <p style={{ fontSize: 32 }}>Tümör, Dejeneratif, Deformite</p>
-                <h3>16 Mart 2024</h3>
-                <h4> Medicana Ataköy Hastanesi, İstanbul</h4>
+                <h1>Omurga Cerrahisinde Komplikasyonlar-3</h1>
+                <h3>15 Mart 2025</h3>
+                <h4> Memorial Ankara Hastanesi, Ankara</h4>
               </div>
               <div className="row">
                 <div className="col-3 text-center navbar-brand">
