@@ -4,40 +4,41 @@ export const mapUrl =
   "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12048.98572394858!2d28.856267!3d40.9760844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa34b9af304cd%3A0x3d04214cfe60ef35!2sMedicana%20Atak%C3%B6y%20Hastanesi!5e0!3m2!1str!2str!4v1708280820072!5m2!1str!2str";
 
 export const speakersData = [
-  { name: "Emre Acaroğlu" },
   { name: "Mehmet Aydoğan" },
-  { name: "İlhan Aydın" },
   { name: "Murat Baloğlu" },
-  { name: "Bülent Bozyiğit" },
-  { name: "Barış Çöllüoğlu" },
-  { name: "Emir Darcan" },
+  { name: "İsmail Bozkurt" },
+  { name: "Suat Canbay" },
+  { name: "Şükrü Çağlar" },
   { name: "Adnan Demirci" },
+  { name: "Uygur Er" },
   { name: "Serdar Ercan" },
-  { name: "Metehan Eseoğlu" },
-  { name: "Cengiz Gömleksiz" },
+  { name: "Akın Gökçedağ" },
   { name: "Güçlühan Güçlü" },
   { name: "Yahya Güvenç" },
-  { name: "Serdar Kahraman" },
-  { name: "Numan Karaaslan" },
-  { name: "Kemal Koç" },
-  { name: "Hakan Millet" },
+  { name: "Aşkın Esen Hastürk" },
+  { name: "İsmail İştemen" },
   { name: "Ender Ofluoğlu" },
   { name: "Önder Ofluoğlu" },
-  { name: "Erdinç Özek" },
-  { name: "Ersin Özeren" },
+  { name: "Hakan Sabuncuoğlu" },
   { name: "Erkin Sönmez" },
   { name: "Salim Şentürk" },
+  { name: "Serdar Kahraman" },
+  { name: "Numan Karaaslan" },
+  { name: "Oğuz Karaeminoğlulları" },
+  { name: "Kemal Koç" },
+  { name: "Hakan Millet" },
   { name: "Melih Üçer" },
-  { name: "Ülkün Ünlü Ünsal" },
+  { name: "Ülkün Ünsal" },
   { name: "Eyüp Varol" },
   { name: "Onur Yaman" },
-  { name: "Erdal Yayla" },
+  { name: "Ersal Yayla" },
   { name: "İlhan Yılmaz" },
   { name: "Mehmet Zileli" },
+  { name: "Bülent Bozyiğit" },
 ];
 
-export const emails = ["enderofluoglu@yahoo.com", "dronuryaman@yahoo.com"];
-export const numbers = ["05324410928", "05065998527"];
+export const emails = ["enderofluoglu@yahoo.com", "erkinso@gmail.com", "ibozkurt85@gmail.com"];
+export const numbers = ["05324410928", "05326212514", "05313670930"];
 export const eventList1: Event[] = [
   {
     time: "08:30-08:45",

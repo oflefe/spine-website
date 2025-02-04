@@ -35,14 +35,14 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/onur-yaman.jpeg"
+                    src="/erkin-sonmez.jpeg"
                     alt="member"
                     width={100}
                     height={100}
                   />
                 </div>
                 <div className="member-info">
-                  <h3>Onur Yaman</h3>
+                  <h3>Erkin Sönmez</h3>
                   <div className="social-links">
                     <a href="#">
                       <i className="fab fa-twitter"></i>
@@ -58,60 +58,14 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/salim-senturk.jpeg"
+                    src="/ismail-bozkurt2.jpeg"
                     alt="member"
                     width={100}
                     height={100}
                   />
                 </div>
                 <div className="member-info">
-                  <h3>Salim Şentürk</h3>
-                  <div className="social-links">
-                    <a href="#">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="team-member text-center">
-                <div className="member-photo">
-                  <Image
-                    src="/eyup-varol.jpeg"
-                    alt="member"
-                    width={100}
-                    height={100}
-                  />
-                </div>
-                <div className="member-info">
-                  <h3>Eyüp Varol</h3>
-                  <div className="social-links">
-                    <a href="#">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="team-member text-center">
-                <div className="member-photo">
-                  <Image
-                    src="/mehmet-zileli.jpeg"
-                    alt="member"
-                    width={100}
-                    height={100}
-                  />
-                </div>
-                <div className="member-info">
-                  <h3>Mehmet Zileli</h3>
+                  <h3>Ismail Bozkurt</h3>
                   <div className="social-links">
                     <a href="#">
                       <i className="fab fa-twitter"></i>
