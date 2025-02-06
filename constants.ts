@@ -1,7 +1,7 @@
 import { Event } from "./components/SingleEvent";
 
 export const mapUrl =
-  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12048.98572394858!2d28.856267!3d40.9760844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa34b9af304cd%3A0x3d04214cfe60ef35!2sMedicana%20Atak%C3%B6y%20Hastanesi!5e0!3m2!1str!2str!4v1708280820072!5m2!1str!2str";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.689353664484!2d32.81292137721361!3d39.903586886709206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f516d319681%3A0xe3fa091e9b309e00!2sMemorial%20Ankara%20Hastanesi!5e0!3m2!1sen!2str!4v1738867097471!5m2!1sen!2str";
 
 export const speakersData = [
   { name: "Mehmet Aydoğan" },
@@ -37,7 +37,11 @@ export const speakersData = [
   { name: "Bülent Bozyiğit" },
 ];
 
-export const emails = ["enderofluoglu@yahoo.com", "erkinso@gmail.com", "ibozkurt85@gmail.com"];
+export const emails = [
+  "enderofluoglu@yahoo.com",
+  "erkinso@gmail.com",
+  "ibozkurt85@gmail.com",
+];
 export const numbers = ["05324410928", "05326212514", "05313670930"];
 export const eventList1: Event[] = [
   {

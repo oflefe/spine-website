@@ -15,29 +15,19 @@ export default function HeroArea() {
                 <h4> Memorial Ankara Hastanesi, Ankara</h4>
               </div>
               <div className="row">
-                <div className="col-3 text-center navbar-brand">
-                  <Image src={"/arel-logo.png"} layout="fill" alt={"logo"} />
+                <div className="col-4 text-center navbar-brand">
+                  <Image src={"/memorial-logo.jpeg"} fill alt={"logo"} />
                 </div>
-                <div className="col-3 text-center navbar-brand">
+                <div className="col-3 navbar-brand text-center">
                   <Image
-                    className="medicana-logo"
-                    src={"/medicana-logo.png"}
-                    layout="fill"
+                    className="mess-logo"
+                    src={"/mess-logo.png"}
+                    fill
                     alt={"logo"}
                   />
                 </div>
-                <div className="row">
-                  <div className="col-3 navbar-brand text-center">
-                    <Image
-                      className="mess-logo"
-                      src={"/mess-logo.png"}
-                      layout="fill"
-                      alt={"logo"}
-                    />
-                  </div>
-                  <div className="col-3 navbar-brand text-center justify-content-center">
-                    <Image src={"/wfns-logo.png"} layout="fill" alt={"logo"} />
-                  </div>
+                <div className="col-3 navbar-brand text-center justify-content-center">
+                  <Image src={"/wfns-logo.png"} fill alt={"logo"} />
                 </div>
               </div>
             </div>
