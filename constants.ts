@@ -45,83 +45,62 @@ export const emails = [
 export const numbers = ["05324410928", "05326212514", "05313670930"];
 export const eventList1: Event[] = [
   {
-    time: "08:30-08:45",
-    eventName: "Komplikasyon mu, hata mı?",
-    omitPresentation: true,
-    presentation: {
-      speaker: "Mehmet Zileli",
-    },
-    discussion: {
-      speaker: "",
-    },
-  },
-  {
     time: "08:45-09:00",
-    eventName: "Yanlış seviye cerrahisi nasıl önlenir?",
+    eventName: "Açılış Konuşması",
     omitPresentation: true,
     presentation: {
-      speaker: "Murat Baloğlu",
+      speaker: "",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "09:00-09:15",
-    eventName: "Lomber disk cerrahisi komplikasyonları",
-    presentation: {
-      speaker: "Barış Çöllüoğlu",
-    },
-    discussion: {
-      speaker: "Salim Şentürk",
-    },
-  },
-  {
-    time: "09:15-09:30",
-    eventName: "Lomber dar kanal cerrahisi komplikasyonları",
-    presentation: {
-      speaker: "Serdar Ercan",
-    },
-    discussion: {
-      speaker: "Adnan Demirci",
-    },
-  },
-  {
-    time: "09:30-09:45",
-    eventName: "Lomber füzyon cerrahisi (Dejeneratif skolyoz) komplikasyonları",
-    presentation: {
-      speaker: "Erdinç Özek",
-    },
-    discussion: {
-      speaker: "Erkin Sönmez",
-    },
-  },
-  {
-    time: "09:45-10:00",
-    eventName: "Servikal disk hernisi cerrahisi komplikasyonları",
-    presentation: {
-      speaker: "Erdal Yayla",
-    },
-    discussion: {
-      speaker: "Güçlühan Güçlü",
-    },
-  },
-  {
-    time: "10:00-10:15",
-    eventName: "Servikal dar kanal cerrahisi komplikasyonları",
-    presentation: {
-      speaker: "Hakan Millet",
-    },
-    discussion: {
-      speaker: "Numan Karaaslan",
-    },
-  },
-  {
-    time: "10:15-10:30",
-    eventName: "KAHVE ARASI",
+    time: "09:00-09:10",
+    eventName: "OLGU-1, C1-2 VİDALAMA İMPLANT KOMPLİKASYONU",
     omitPresentation: true,
     presentation: {
+      speaker: "ŞAKİR EKŞİ",
+    },
+    discussion: {
       speaker: "",
+    },
+  },
+  {
+    time: "09:10-09:20",
+    eventName: "OLGU-2, TORAKAL KAFES MALPOZİSYONU-VİDA KIRILMASI",
+    presentation: {
+      speaker: "DEMET EVLEKSİZ KARIMZADA",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "09:20-09:30",
+    eventName: "OLGU-3   ENSTRÜMANTASYON SONRASI NÖROLOJİK DEFİSİT",
+    presentation: {
+      speaker: "BETÜL YAMAN",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "09:30-09:40",
+    eventName: "OLGU-4. LOMBER CERRAHİ SONRASI VİDA KIRILMASI",
+    presentation: {
+      speaker: "HÜSEYİN ANIL ÖZMAT",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "09:40-09:50",
+    eventName: "EN KÖTÜ VAKAM",
+    presentation: {
+      speaker: "YAHYA GÜVENÇ",
     },
     discussion: {
       speaker: "",
@@ -131,84 +110,113 @@ export const eventList1: Event[] = [
 
 export const eventList2: Event[] = [
   {
-    time: "10:30-10:45",
-    eventName: "İdiopatik skolyoz cerrahisinin komplikasyonları",
+    time: "09:50-10:00",
+    eventName: "OLGU-1   SERVİKAL KORPEKTOMİ",
     presentation: {
-      speaker: "Erkin Özeren",
+      speaker: "EYLEM EREN EYÜPOĞLU",
     },
     discussion: {
-      speaker: "Emre Acaroğlu",
+      speaker: "",
     },
   },
   {
-    time: "10:45-11:00",
-    eventName: "VBT cerrahi komplikasyonları",
+    time: "10:00-10:10",
+    eventName: "OLGU-2 ANT-POST SERVİKAL CERRAHİ KOMPLİKASYONU",
     presentation: {
-      speaker: "Abdulhalim Akar",
+      speaker: "FATMA HEDİYE ERZURUMLU",
     },
     discussion: {
-      speaker: "Mehmet Aydoğan",
+      speaker: "",
     },
   },
   {
-    time: "11:00-11:15",
-    eventName: "Konjenital skolyoz cerrahi komplikasyonları",
+    time: "10:10-10:20",
+    eventName: "OLGU-3 POSTERİOR SERVİKAL CERRAHİ KOMPLİKASYONU",
     presentation: {
-      speaker: "Ülkün Ünsal",
+      speaker: "CELAL",
     },
     discussion: {
-      speaker: "Yahya Güvenç",
+      speaker: "",
+    },
+  },
+  {
+    time: "10:20-10:30",
+    eventName: "OLGU-4 NÜKS-REZİDÜ DİSK HERNİSİ",
+    presentation: {
+      speaker: "KADİR GEM",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "10:30-10:40",
+    eventName: "EN KÖTÜ VAKAM",
+    presentation: {
+      speaker: "NUMAN KARAASLAN",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "10:40-11:00",
+    eventName: "KAHVE MOLASI",
+    presentation: {
+      speaker: "",
+    },
+    discussion: {
+      speaker: "",
     },
   },
 ];
 
 export const eventList3: Event[] = [
   {
-    time: "11:15-11:30",
-    eventName: "Metastatik omurga tümörlerinin cerrahi komplikasyonları",
+    time: "11:00-11:10",
+    eventName: "OLGU-1  MENİNGOMYELOSEL-KİFOZ",
     presentation: {
-      speaker: "Bülent Bozyiğit",
+      speaker: "HARUN DEMİRCİ",
     },
     discussion: {
-      speaker: "Serdar Kahraman",
-    },
-  },
-  {
-    time: "11:30-11:45",
-    eventName: "Primer omurga tümörlerinin cerrahi komplikasyonları",
-    presentation: {
-      speaker: "Melih Üçler",
-    },
-    discussion: {
-      speaker: "Kemal Koç",
-    },
-  },
-  {
-    time: "11:45-12:00",
-    eventName: "Sakral ve pelvik tümörlerin cerrahi komplikasyonları",
-    presentation: {
-      speaker: "İlhan Yılmaz",
-    },
-    discussion: {
-      speaker: "Önder Ofluoğlu",
-    },
-  },
-  {
-    time: "12:00-12:15",
-    eventName: "Komplike omurga vakalarında anestezinin önemi ve yönetimi",
-    presentation: {
-      speaker: "Kenan Açıkgöz",
-    },
-    discussion: {
-      speaker: "Musa Gitmez",
-    },
-  },
-  {
-    time: "12:15-13:00",
-    eventName: "Yemek Arası",
-    omitPresentation: true,
-    presentation: {
       speaker: "",
+    },
+  },
+  {
+    time: "11:10-11:20",
+    eventName: "OLGU-2",
+    presentation: {
+      speaker: "GÖKHAN DEMİRKIRAN",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "11:20-11:30",
+    eventName: "OLGU-3",
+    presentation: {
+      speaker: "RAFİK RAMAZANOV",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "11:30-11:40",
+    eventName: "OLGU-4",
+    presentation: {
+      speaker: "MEHMET AYDOĞAN",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "11:40-11:50",
+    eventName: "EN KÖTÜ VAKAM",
+    presentation: {
+      speaker: "İSMAİL BOZKURT",
     },
     discussion: {
       speaker: "",
@@ -218,85 +226,63 @@ export const eventList3: Event[] = [
 
 export const eventList4: Event[] = [
   {
-    time: "13:00-13:15",
-    eventName: "Olgu sunumu 1",
+    time: "11:50-12:00",
+    eventName: "OLGU-1 L4 PATOLOJİK FRAKTÜR",
     omitPresentation: true,
     presentation: {
-      speaker: "Gökhan Gökçe",
+      speaker: "ATAHAN DURGAL",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "13:15-13:30",
-    eventName: "Olgu sunumu 2",
+    time: "12:00-12:10",
+    eventName: "OLGU-2 TORAKAL MET ? SONRASI KOMPLİKASYON",
     omitPresentation: true,
     presentation: {
-      speaker: "Hakan Ak",
+      speaker: "ATAHAN DURGAL",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "13:30-13:45",
-    eventName: "Olgu sunumu 3",
+    time: "12:10-12:20",
+    eventName: "OLGU-3",
     omitPresentation: true,
     presentation: {
-      speaker: "Cengiz Gömleksiz",
+      speaker: "",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "13:45-14:00",
-    eventName: "Olgu sunumu 4",
+    time: "12:20-12:30",
+    eventName: "OLGU-4",
     omitPresentation: true,
     presentation: {
-      speaker: "Metehan Eseoğlu",
+      speaker: "",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "14:00-14:15",
-    eventName: "Olgu sunumu 5",
+    time: "12:30-12:40",
+    eventName: "EN KÖTÜ VAKAM",
     omitPresentation: true,
     presentation: {
-      speaker: "Tolga Dündar",
+      speaker: "MURAT BALOĞLU",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "14:15-14:30",
-    eventName: "Olgu sunumu 6",
-    omitPresentation: true,
-    presentation: {
-      speaker: "Hakan korkmaz",
-    },
-    discussion: {
-      speaker: "",
-    },
-  },
-  {
-    time: "14:30-14:45",
-    eventName: "Olgu Sunumu 7",
-    omitPresentation: true,
-    presentation: {
-      speaker: "Mahmut Demirkol",
-    },
-    discussion: {
-      speaker: "",
-    },
-  },
-  {
-    time: "14:45-15:15",
-    eventName: "Kahve arası",
+    time: "12:40-13:30",
+    eventName: "ÖĞLEN YEMEĞİ",
     omitPresentation: true,
     presentation: {
       speaker: "",

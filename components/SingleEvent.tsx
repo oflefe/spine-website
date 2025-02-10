@@ -29,13 +29,13 @@ export default function SingleEvent({
           <h3>{eventName}</h3>
         </div>
         <div className="event-detail presentation">
-          {!omitPresentation && <span>Olgu sunumu (5dk) </span>}
+          {/* {!omitPresentation && <span>Olgu sunumu (5dk) </span>} */}
           <span className="speaker">{presentation.speaker}</span>
         </div>
         <div className="event-detail discussion">
-          {!omitPresentation && (
+          {/* {!omitPresentation && (
             <span>Nasıl önleyelim? Nasıl Yönetelim (10 dk)</span>
-          )}
+          )} */}
           <span className="speaker">{discussion.speaker}</span>
         </div>
       </div>
