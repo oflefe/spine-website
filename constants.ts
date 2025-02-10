@@ -295,88 +295,262 @@ export const eventList4: Event[] = [
 
 export const eventList5: Event[] = [
   {
-    time: "15:15-15:30",
-    eventName: "Olgu sunumu 7",
+    time: "13:30-13:40",
+    eventName: "OLGU-1 YETERSİZ KOREKSİYON, SAGİTAL İMBALANS",
     omitPresentation: true,
     presentation: {
-      speaker: "Birol Özkal",
+      speaker: "FATMA HEDİYE ERZURUMLU",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "15:30-15:45",
-    eventName: "Olgu sunumu 8",
+    time: "13:40-13:50",
+    eventName: "OLGU-2  AİS NÖROLOJİK KOMPLİKASYON",
     omitPresentation: true,
     presentation: {
-      speaker: "Oğuz Balkış",
+      speaker: "UĞUR YÜKSEL YARADILMIŞ",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "15:45-16:00",
-    eventName: "Olgu sunumu 9",
+    time: "13:50-14:00",
+    eventName: "OLGU-3. NF 2 CERRAHİSİ SONRASI KİFOZ",
     omitPresentation: true,
     presentation: {
-      speaker: "İnan Uzunoğlu",
+      speaker: "EYLEM EREN EYÜPOĞLU",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "16:00-16:15",
-    eventName: "Olgu sunumu 10",
+    time: "14:00-14:10",
+    eventName: "OLGU-4",
     omitPresentation: true,
     presentation: {
-      speaker: "Barış Yaşar",
+      speaker: "",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "16:15-16:30",
-    eventName: "Olgu sunumu 11",
+    time: "14:10-14:20",
+    eventName: "EN KÖTÜ VAKAM",
     omitPresentation: true,
     presentation: {
-      speaker: "Gülyara Çiğdem",
+      speaker: "İSMAİL İŞTEMEN",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+];
+
+export const eventList6: Event[] = [
+  {
+    time: "14:20-14:30",
+    eventName: "OLGU-1 VERTEBROPLASTİ KOMPLİKASYONU",
+    omitPresentation: true,
+    presentation: {
+      speaker: "SERHAT CÖMERT",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "16:30-16:45",
-    eventName: "Olgu sunumu 12",
+    time: "14:30-14:40",
+    eventName: "OLGU-2",
     omitPresentation: true,
     presentation: {
-      speaker: "Kemal Keşmer",
+      speaker: "FİKRET ŞAHİNTÜRK",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "16:45-17:00",
-    eventName: "Olgu Sunumu 13",
+    time: "14:40-14:50",
+    eventName: "OLGU-3",
     omitPresentation: true,
     presentation: {
-      speaker: "Hidayet Şafak Çine",
+      speaker: "",
     },
     discussion: {
       speaker: "",
     },
   },
   {
-    time: "17:00",
+    time: "14:50-15:00",
+    eventName: "OLGU-4 SEMENT KAÇAĞI",
+    omitPresentation: true,
+    presentation: {
+      speaker: "",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "15:00-15:10",
+    eventName: "EN KÖTÜ VAKAM",
+    omitPresentation: true,
+    presentation: {
+      speaker: "ÜLKÜN ÜNSAL",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "15:10-15:30",
+    eventName: "KAHVE MOLASI",
+    omitPresentation: true,
+    presentation: {
+      speaker: "",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+];
+
+export const eventList7: Event[] = [
+  {
+    time: "15:30-15:40",
+    eventName: "OLGU-1 ENDOSKOPİK DİSKEKTOMİ KOMPLİKASYONU-İNTERLAMİNER",
+    omitPresentation: true,
+    presentation: {
+      speaker: "BURAK KAZANCI",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "15:40-15:50",
+    eventName: "OLGU-2 -UBE KOMPLİKASYONU",
+    omitPresentation: true,
+    presentation: {
+      speaker: "ABDULLAH MERTER",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "15:40-15:50",
+    eventName: "OLGU-2 -UBE KOMPLİKASYONU",
+    omitPresentation: true,
+    presentation: {
+      speaker: "ABDULLAH MERTER",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "15:50-16:00",
+    eventName: "OLGU-3  LATERAL TRANSFORAMİNAL ENDOSKOPİ KOMP",
+    omitPresentation: true,
+    presentation: {
+      speaker: "OĞUZ KARAEMİNOĞULLARI",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "16:00-16:10",
+    eventName: "OLGU-4 ODONTOİD REZEKSİYONU-YETERSİZ",
+    omitPresentation: true,
+    presentation: {
+      speaker: "EYÜP VAROL",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "16:10-16:20",
+    eventName: "EN KÖTÜ VAKAM",
+    omitPresentation: true,
+    presentation: {
+      speaker: "ADNAN DEMİRCİ",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+];
+
+export const eventList8: Event[] = [
+  {
+    time: "16:20-16:30",
+    eventName: "OLGU-1 SPONDİLODİSKİT-MENENJİT-ENSEFALİT",
+    omitPresentation: true,
+    presentation: {
+      speaker: "MELİH ÜÇER",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "16:30-16:40",
+    eventName: "OLGU-2 SERVİKAL CERRAHİ SONRASI OSTEOMYELİT",
+    omitPresentation: true,
+    presentation: {
+      speaker: "EGEMEN IŞITAN",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "16:40-16:50",
+    eventName: "OLGU-3",
+    omitPresentation: true,
+    presentation: {
+      speaker: "",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "16:50-17:00",
+    eventName: "OLGU-4",
+    omitPresentation: true,
+    presentation: {
+      speaker: "",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "17:00-17:10",
+    eventName: "EN KÖTÜ VAKAM",
+    omitPresentation: true,
+    presentation: {
+      speaker: "GÜÇLÜHAN GÜÇLÜ",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
+    time: "17:10",
     eventName: "KAPANIŞ",
     omitPresentation: true,
     presentation: {
-      speaker: "",
+      speaker: "MELİH ÜÇER",
     },
     discussion: {
       speaker: "",
