@@ -550,7 +550,7 @@ export const eventList8: Event[] = [
     eventName: "KAPANIŞ",
     omitPresentation: true,
     presentation: {
-      speaker: "MELİH ÜÇER",
+      speaker: "",
     },
     discussion: {
       speaker: "",
