@@ -45,7 +45,7 @@ export const emails = [
 export const numbers = ["05324410928", "05326212514", "05313670930"];
 export const eventList1: Event[] = [
   {
-    time: "08:45-09:00",
+    time: "08:30-08:45",
     eventName: "Açılış Konuşması",
     omitPresentation: true,
     presentation: {
@@ -56,8 +56,19 @@ export const eventList1: Event[] = [
     },
   },
   {
+    time: "08:45-09:00",
+    eventName: "KOMPLİKASYON MU? MALPRAKTİS Mİ?",
+    omitPresentation: true,
+    presentation: {
+      speaker: "MEHMET ZİLELİ",
+    },
+    discussion: {
+      speaker: "",
+    },
+  },
+  {
     time: "09:00-09:10",
-    eventName: "OLGU-1, C1-2 VİDALAMA İMPLANT KOMPLİKASYONU",
+    eventName: "OLGU-1, C1-2 VİDALAMA",
     omitPresentation: true,
     presentation: {
       speaker: "ŞAKİR EKŞİ",
@@ -68,7 +79,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "09:10-09:20",
-    eventName: "OLGU-2, TORAKAL KAFES MALPOZİSYONU-VİDA KIRILMASI",
+    eventName: "OLGU-2.   LOMBER FASET VİDASI",
     presentation: {
       speaker: "DEMET EVLEKSİZ KARIMZADA",
     },
@@ -78,7 +89,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "09:20-09:30",
-    eventName: "OLGU-3   ENSTRÜMANTASYON SONRASI NÖROLOJİK DEFİSİT",
+    eventName: "OLGU-3   TORAKO-LOMBER ENSTRÜMANTASYON ",
     presentation: {
       speaker: "BETÜL YAMAN",
     },
@@ -88,7 +99,7 @@ export const eventList1: Event[] = [
   },
   {
     time: "09:30-09:40",
-    eventName: "OLGU-4. LOMBER CERRAHİ SONRASI VİDA KIRILMASI",
+    eventName: "OLGU-4 LOMBER ENSTRÜMANTASYON",
     presentation: {
       speaker: "HÜSEYİN ANIL ÖZMAT",
     },
@@ -111,9 +122,9 @@ export const eventList1: Event[] = [
 export const eventList2: Event[] = [
   {
     time: "09:50-10:00",
-    eventName: "OLGU-1   SERVİKAL KORPEKTOMİ",
+    eventName: "OLGU-1   DEJENERATİF SKOLYOZ",
     presentation: {
-      speaker: "EYLEM EREN EYÜPOĞLU",
+      speaker: "İLHAN YILMAZ",
     },
     discussion: {
       speaker: "",
@@ -133,7 +144,7 @@ export const eventList2: Event[] = [
     time: "10:10-10:20",
     eventName: "OLGU-3 POSTERİOR SERVİKAL CERRAHİ KOMPLİKASYONU",
     presentation: {
-      speaker: "CELAL",
+      speaker: "CELAL ÇAKIR",
     },
     discussion: {
       speaker: "",
@@ -184,7 +195,7 @@ export const eventList3: Event[] = [
   },
   {
     time: "11:10-11:20",
-    eventName: "OLGU-2",
+    eventName: "OLGU-2 -KİFOZ CERRAHİSİ KOMPLİKASYONU",
     presentation: {
       speaker: "GÖKHAN DEMİRKIRAN",
     },
@@ -204,9 +215,9 @@ export const eventList3: Event[] = [
   },
   {
     time: "11:30-11:40",
-    eventName: "OLGU-4",
+    eventName: "OLGU-4  PEDİARTRİK VP KOMPLİKASYONU",
     presentation: {
-      speaker: "MEHMET AYDOĞAN",
+      speaker: "DURDU MEHMET BABAOĞLAN",
     },
     discussion: {
       speaker: "",
@@ -216,7 +227,7 @@ export const eventList3: Event[] = [
     time: "11:40-11:50",
     eventName: "EN KÖTÜ VAKAM",
     presentation: {
-      speaker: "İSMAİL BOZKURT",
+      speaker: "ÜLKÜN ÜNSAL",
     },
     discussion: {
       speaker: "",
@@ -238,10 +249,10 @@ export const eventList4: Event[] = [
   },
   {
     time: "12:00-12:10",
-    eventName: "OLGU-2 TORAKAL MET ? SONRASI KOMPLİKASYON",
+    eventName: "OLGU-2 TORAKAL METASTAZ",
     omitPresentation: true,
     presentation: {
-      speaker: "ATAHAN DURGAL",
+      speaker: "DEMET EVLEKSİZ KARIMZADA",
     },
     discussion: {
       speaker: "",
@@ -249,10 +260,10 @@ export const eventList4: Event[] = [
   },
   {
     time: "12:10-12:20",
-    eventName: "OLGU-3",
+    eventName: "OLGU-3 PRİMER OMURGA TÜMÖRÜ",
     omitPresentation: true,
     presentation: {
-      speaker: "",
+      speaker: "MURAT ZAİMOĞLU",
     },
     discussion: {
       speaker: "",
@@ -263,7 +274,7 @@ export const eventList4: Event[] = [
     eventName: "OLGU-4",
     omitPresentation: true,
     presentation: {
-      speaker: "",
+      speaker: "EYLEM EREN EYÜPOĞLU",
     },
     discussion: {
       speaker: "",
@@ -296,10 +307,10 @@ export const eventList4: Event[] = [
 export const eventList5: Event[] = [
   {
     time: "13:30-13:40",
-    eventName: "OLGU-1 YETERSİZ KOREKSİYON, SAGİTAL İMBALANS",
+    eventName: "OLGU-1 SAGİTAL DENGE",
     omitPresentation: true,
     presentation: {
-      speaker: "FATMA HEDİYE ERZURUMLU",
+      speaker: "MELİH ÜÇER",
     },
     discussion: {
       speaker: "",
@@ -307,7 +318,7 @@ export const eventList5: Event[] = [
   },
   {
     time: "13:40-13:50",
-    eventName: "OLGU-2  AİS NÖROLOJİK KOMPLİKASYON",
+    eventName: "OLGU-2",
     omitPresentation: true,
     presentation: {
       speaker: "UĞUR YÜKSEL YARADILMIŞ",
@@ -332,7 +343,7 @@ export const eventList5: Event[] = [
     eventName: "OLGU-4",
     omitPresentation: true,
     presentation: {
-      speaker: "",
+      speaker: "AKIN GÖKÇEDAĞ",
     },
     discussion: {
       speaker: "",
@@ -365,7 +376,7 @@ export const eventList6: Event[] = [
   },
   {
     time: "14:30-14:40",
-    eventName: "OLGU-2",
+    eventName: "OLGU-2 OSTEOPOROTİK OMURGA KIRIĞI",
     omitPresentation: true,
     presentation: {
       speaker: "FİKRET ŞAHİNTÜRK",
@@ -376,10 +387,10 @@ export const eventList6: Event[] = [
   },
   {
     time: "14:40-14:50",
-    eventName: "OLGU-3",
+    eventName: "OLGU-3 SERVİKAL PEDÜKÜLER VİDALAMA ",
     omitPresentation: true,
     presentation: {
-      speaker: "",
+      speaker: "İLKER ÇÖVEN",
     },
     discussion: {
       speaker: "",
@@ -390,7 +401,7 @@ export const eventList6: Event[] = [
     eventName: "OLGU-4 SEMENT KAÇAĞI",
     omitPresentation: true,
     presentation: {
-      speaker: "",
+      speaker: "ÜMİT ÖZGÜR GÜLER",
     },
     discussion: {
       speaker: "",
@@ -401,7 +412,7 @@ export const eventList6: Event[] = [
     eventName: "EN KÖTÜ VAKAM",
     omitPresentation: true,
     presentation: {
-      speaker: "ÜLKÜN ÜNSAL",
+      speaker: "İSMAİL BOZKURT",
     },
     discussion: {
       speaker: "",
@@ -434,18 +445,7 @@ export const eventList7: Event[] = [
   },
   {
     time: "15:40-15:50",
-    eventName: "OLGU-2 -UBE KOMPLİKASYONU",
-    omitPresentation: true,
-    presentation: {
-      speaker: "ABDULLAH MERTER",
-    },
-    discussion: {
-      speaker: "",
-    },
-  },
-  {
-    time: "15:40-15:50",
-    eventName: "OLGU-2 -UBE KOMPLİKASYONU",
+    eventName: "OLGU-2 UBE KOMPLİKASYONU",
     omitPresentation: true,
     presentation: {
       speaker: "ABDULLAH MERTER",
@@ -467,10 +467,10 @@ export const eventList7: Event[] = [
   },
   {
     time: "16:00-16:10",
-    eventName: "OLGU-4 ODONTOİD REZEKSİYONU-YETERSİZ",
+    eventName: "OLGU-4",
     omitPresentation: true,
     presentation: {
-      speaker: "EYÜP VAROL",
+      speaker: "EMİR KAAN İZCİ",
     },
     discussion: {
       speaker: "",
@@ -492,10 +492,10 @@ export const eventList7: Event[] = [
 export const eventList8: Event[] = [
   {
     time: "16:20-16:30",
-    eventName: "OLGU-1 SPONDİLODİSKİT-MENENJİT-ENSEFALİT",
+    eventName: "OLGU-1 SERVİKAL SPONDİLODİSKTİ-OSTEOMYELİT",
     omitPresentation: true,
     presentation: {
-      speaker: "MELİH ÜÇER",
+      speaker: "RAMAZAN PAŞAHAN",
     },
     discussion: {
       speaker: "",
@@ -503,7 +503,7 @@ export const eventList8: Event[] = [
   },
   {
     time: "16:30-16:40",
-    eventName: "OLGU-2 SERVİKAL CERRAHİ SONRASI OSTEOMYELİT",
+    eventName: "OLGU-2 SERVİKAL  OSTEOMYELİT",
     omitPresentation: true,
     presentation: {
       speaker: "EGEMEN IŞITAN",
@@ -514,21 +514,21 @@ export const eventList8: Event[] = [
   },
   {
     time: "16:40-16:50",
-    eventName: "OLGU-3",
+    eventName: "OLGU-3 LOMBER OSTEOMYELİT",
     omitPresentation: true,
     presentation: {
       speaker: "",
     },
     discussion: {
-      speaker: "",
+      speaker: "EMİN AKSU",
     },
   },
   {
     time: "16:50-17:00",
-    eventName: "OLGU-4",
+    eventName: "OLGU-4 LOMBER SPONDİLODİSKİT",
     omitPresentation: true,
     presentation: {
-      speaker: "",
+      speaker: "EYÜP VAROL",
     },
     discussion: {
       speaker: "",
