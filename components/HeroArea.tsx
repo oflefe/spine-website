@@ -12,9 +12,6 @@ export default function HeroArea() {
                 <h1>Omurga Cerrahisinde Komplikasyonlar-3</h1>
               </div>
               <div className="row">
-                <div className="col-4 text-center navbar-brand">
-                  <Image src={"/memorial-logo.jpeg"} fill alt={"logo"} />
-                </div>
                 <div className="col-3 navbar-brand text-center">
                   <Image
                     className="mess-logo"
@@ -22,9 +19,6 @@ export default function HeroArea() {
                     fill
                     alt={"logo"}
                   />
-                </div>
-                <div className="col-3 navbar-brand text-center justify-content-center">
-                  <Image src={"/wfns-logo.png"} fill alt={"logo"} />
                 </div>
                 <div className="col-4 text-center navbar-brand">
                   <Image
