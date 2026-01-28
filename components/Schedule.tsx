@@ -1,14 +1,6 @@
 import React from "react";
 import SingleEvent, { Event } from "./SingleEvent";
-import {
-  eventList2,
-  eventList3,
-  eventList4,
-  eventList5,
-  eventList6,
-  eventList7,
-  eventList8,
-} from "@/constants";
+import { eventList2, eventList3, eventList4 } from "@/constants";
 
 type Schedule = {
   eventList: Event[];
@@ -26,12 +18,13 @@ export default function Schedule({ eventList }: Schedule) {
               </div>
             </div>
           </div>
+
           {/* SECTION 1 */}
           <p>
-            <strong>ENSTRÜMANTASYON KOMPLİKASYONLARI</strong>
+            <strong>OTURUM-1 TRAVMA-OSTEOPOROTİK OMURGA</strong>
           </p>
           <p>
-            <strong>Moderatörler:</strong> Mehmet Zileli, Uygur Er
+            <strong>Moderatör:</strong> Mehmet Zileli
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
@@ -45,7 +38,7 @@ export default function Schedule({ eventList }: Schedule) {
                       discussion,
                       omitPresentation,
                     },
-                    index
+                    index,
                   ) => (
                     <SingleEvent
                       key={index}
@@ -55,17 +48,18 @@ export default function Schedule({ eventList }: Schedule) {
                       omitPresentation={omitPresentation}
                       discussion={discussion}
                     />
-                  )
+                  ),
                 )}
               </div>
             </div>
           </div>
+
           {/* SECTION 2 */}
           <p>
-            <strong>DEJENERATİF OMURGA</strong>
+            <strong>OTURUM-2 DEJENERATİF OMURGA</strong>
           </p>
           <p>
-            <strong>Moderatörler:</strong> Kemal Koç, Suat Canbay
+            <strong>Moderatör:</strong> Haluk Berk
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
@@ -79,7 +73,7 @@ export default function Schedule({ eventList }: Schedule) {
                       discussion,
                       omitPresentation,
                     },
-                    index
+                    index,
                   ) => (
                     <SingleEvent
                       key={index}
@@ -89,17 +83,18 @@ export default function Schedule({ eventList }: Schedule) {
                       omitPresentation={omitPresentation}
                       discussion={discussion}
                     />
-                  )
+                  ),
                 )}
               </div>
             </div>
           </div>
+
           {/* SECTION 3 */}
           <p>
-            <strong>PEDİATRİK OMURGA DEFORMİTELERİ</strong>
+            <strong>OTURUM-3 TÜMÖR CERRAHİSİ</strong>
           </p>
           <p>
-            <strong>Moderatörler:</strong> Muharrem Yazıcı, Onur Yaman
+            <strong>Moderatör:</strong> Serdar Kahraman
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
@@ -113,7 +108,7 @@ export default function Schedule({ eventList }: Schedule) {
                       discussion,
                       omitPresentation,
                     },
-                    index
+                    index,
                   ) => (
                     <SingleEvent
                       key={index}
@@ -123,17 +118,18 @@ export default function Schedule({ eventList }: Schedule) {
                       omitPresentation={omitPresentation}
                       discussion={discussion}
                     />
-                  )
+                  ),
                 )}
               </div>
             </div>
           </div>
+
           {/* SECTION 4 */}
           <p>
-            <strong>TÜMÖR CERRAHİSİ </strong>
+            <strong>OTURUM 4 ENFEKSİYON- DEFORMİTE</strong>
           </p>
           <p>
-            <strong>Moderatörler:</strong> Önder Ofluoğlu, Serdar Karaman
+            <strong>Moderatör:</strong> Kamil Sucu
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
@@ -147,7 +143,7 @@ export default function Schedule({ eventList }: Schedule) {
                       discussion,
                       omitPresentation,
                     },
-                    index
+                    index,
                   ) => (
                     <SingleEvent
                       key={index}
@@ -157,144 +153,7 @@ export default function Schedule({ eventList }: Schedule) {
                       omitPresentation={omitPresentation}
                       discussion={discussion}
                     />
-                  )
-                )}
-              </div>
-            </div>
-          </div>
-          {/* SECTION 5 */}
-          <p>
-            <strong>ERİŞKİN DEFORMİTE CERRAHİSİ</strong>
-          </p>
-          <p>
-            <strong>Moderatörler:</strong> Mehmet Aydoğan, Ender Ofluloğlu
-          </p>
-          <div className="row justify-content-center event-container">
-            <div className="col-lg-12">
-              <div className="event-schedule">
-                {eventList5.map(
-                  (
-                    {
-                      time,
-                      eventName,
-                      presentation,
-                      discussion,
-                      omitPresentation,
-                    },
-                    index
-                  ) => (
-                    <SingleEvent
-                      key={index}
-                      time={time}
-                      eventName={eventName}
-                      presentation={presentation}
-                      omitPresentation={omitPresentation}
-                      discussion={discussion}
-                    />
-                  )
-                )}
-              </div>
-            </div>
-          </div>
-          {/* SECTION 6 */}
-          <p>
-            <strong>TRAVMA-OSTEOPOROTİK OMURGA</strong>
-          </p>
-          <p>
-            <strong>Moderatörler:</strong> Erkin Sönmez, Salim Şentürk
-          </p>
-          <div className="row justify-content-center event-container">
-            <div className="col-lg-12">
-              <div className="event-schedule">
-                {eventList6.map(
-                  (
-                    {
-                      time,
-                      eventName,
-                      presentation,
-                      discussion,
-                      omitPresentation,
-                    },
-                    index
-                  ) => (
-                    <SingleEvent
-                      key={index}
-                      time={time}
-                      eventName={eventName}
-                      presentation={presentation}
-                      omitPresentation={omitPresentation}
-                      discussion={discussion}
-                    />
-                  )
-                )}
-              </div>
-            </div>
-          </div>
-          {/* SECTION 7 */}
-          <p>
-            <strong>MİS</strong>
-          </p>
-          <p>
-            <strong>Moderatörler:</strong> Hakan Sabuncuoğlu, Oğuz
-            Karaeminoğulları
-          </p>
-          <div className="row justify-content-center event-container">
-            <div className="col-lg-12">
-              <div className="event-schedule">
-                {eventList7.map(
-                  (
-                    {
-                      time,
-                      eventName,
-                      presentation,
-                      discussion,
-                      omitPresentation,
-                    },
-                    index
-                  ) => (
-                    <SingleEvent
-                      key={index}
-                      time={time}
-                      eventName={eventName}
-                      presentation={presentation}
-                      omitPresentation={omitPresentation}
-                      discussion={discussion}
-                    />
-                  )
-                )}
-              </div>
-            </div>
-          </div>
-          {/* SECTION 8 */}
-          <p>
-            <strong>ENFEKSİYON</strong>
-          </p>
-          <p>
-            <strong>Moderatörler:</strong> Şükrü Çağlar, Aşkın Esen Hastürk
-          </p>
-          <div className="row justify-content-center event-container">
-            <div className="col-lg-12">
-              <div className="event-schedule">
-                {eventList8.map(
-                  (
-                    {
-                      time,
-                      eventName,
-                      presentation,
-                      discussion,
-                      omitPresentation,
-                    },
-                    index
-                  ) => (
-                    <SingleEvent
-                      key={index}
-                      time={time}
-                      eventName={eventName}
-                      presentation={presentation}
-                      omitPresentation={omitPresentation}
-                      discussion={discussion}
-                    />
-                  )
+                  ),
                 )}
               </div>
             </div>

@@ -35,14 +35,14 @@ export default function Committee() {
               <div className="team-member text-center">
                 <div className="member-photo">
                   <Image
-                    src="/erkin-sonmez.jpeg"
+                    src="/ulkun-unsal.jpeg"
                     alt="member"
                     width={100}
                     height={100}
                   />
                 </div>
                 <div className="member-info">
-                  <h3>Erkin Sönmez</h3>
+                  <h3>Ülkün Ünsal</h3>
                   <div className="social-links">
                     <a href="#">
                       <i className="fab fa-twitter"></i>
