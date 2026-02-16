@@ -14,7 +14,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(40, 46, 99, 0.56);
+  background: linear-gradient(180deg, #000 0%, #26294d 55%, #505478 100%);
   z-index: -1;
 }
 

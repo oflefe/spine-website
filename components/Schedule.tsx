@@ -1,12 +1,15 @@
 import React from "react";
 import SingleEvent, { Event } from "./SingleEvent";
-import { eventList2, eventList3, eventList4 } from "@/constants";
+import { eventList2, eventList3, eventList4, eventList5 } from "@/constants";
 
 type Schedule = {
   eventList: Event[];
 };
 
 export default function Schedule({ eventList }: Schedule) {
+  const openingEvents = eventList.slice(0, 2);
+  const sessionOneEvents = eventList.slice(2);
+
   return (
     <>
       <section id="program" className="schedule-section pt-70 pb-80">
@@ -19,17 +22,49 @@ export default function Schedule({ eventList }: Schedule) {
             </div>
           </div>
 
-          {/* SECTION 1 */}
+          {/* OPENING */}
           <p>
-            <strong>OTURUM-1 TRAVMA-OSTEOPOROTİK OMURGA</strong>
-          </p>
-          <p>
-            <strong>Moderatör:</strong> Mehmet Zileli
+            <strong>AÇILIŞ</strong>
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
               <div className="event-schedule">
-                {eventList.map(
+                {openingEvents.map(
+                  (
+                    {
+                      time,
+                      eventName,
+                      presentation,
+                      discussion,
+                      omitPresentation,
+                    },
+                    index,
+                  ) => (
+                    <SingleEvent
+                      key={index}
+                      time={time}
+                      eventName={eventName}
+                      presentation={presentation}
+                      omitPresentation={omitPresentation}
+                      discussion={discussion}
+                    />
+                  ),
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* SECTION 1 */}
+          <p>
+            <strong>OTURUM 1 — TRAVMA / OSTEOPOROTİK OMURGA</strong>
+          </p>
+          <p>
+            <strong>Moderatörler:</strong> Mehmet Zileli – Mesut Mete
+          </p>
+          <div className="row justify-content-center event-container">
+            <div className="col-lg-12">
+              <div className="event-schedule">
+                {sessionOneEvents.map(
                   (
                     {
                       time,
@@ -56,10 +91,10 @@ export default function Schedule({ eventList }: Schedule) {
 
           {/* SECTION 2 */}
           <p>
-            <strong>OTURUM-2 DEJENERATİF OMURGA</strong>
+            <strong>OTURUM 2 — DEJENERATİF OMURGA</strong>
           </p>
           <p>
-            <strong>Moderatör:</strong> Haluk Berk
+            <strong>Moderatörler:</strong> Ömer Akçalı – Yusuf Duransoy
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
@@ -91,10 +126,10 @@ export default function Schedule({ eventList }: Schedule) {
 
           {/* SECTION 3 */}
           <p>
-            <strong>OTURUM-3 TÜMÖR CERRAHİSİ</strong>
+            <strong>OTURUM 3 — TÜMÖR ve ENFEKSİYON</strong>
           </p>
           <p>
-            <strong>Moderatör:</strong> Serdar Kahraman
+            <strong>Moderatörler:</strong> Serdar Kahraman – Yahya Güvenç
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
@@ -126,15 +161,50 @@ export default function Schedule({ eventList }: Schedule) {
 
           {/* SECTION 4 */}
           <p>
-            <strong>OTURUM 4 ENFEKSİYON- DEFORMİTE</strong>
+            <strong>OTURUM 4 — DEFORMİTE</strong>
           </p>
           <p>
-            <strong>Moderatör:</strong> Kamil Sucu
+            <strong>Moderatörler:</strong> Onur Yaman – Numan Karaaslan
           </p>
           <div className="row justify-content-center event-container">
             <div className="col-lg-12">
               <div className="event-schedule">
                 {eventList4.map(
+                  (
+                    {
+                      time,
+                      eventName,
+                      presentation,
+                      discussion,
+                      omitPresentation,
+                    },
+                    index,
+                  ) => (
+                    <SingleEvent
+                      key={index}
+                      time={time}
+                      eventName={eventName}
+                      presentation={presentation}
+                      omitPresentation={omitPresentation}
+                      discussion={discussion}
+                    />
+                  ),
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* SECTION 5 */}
+          <p>
+            <strong>OTURUM 5 — KATILIMCILARDAN GELEN KARIŞIK OLGULAR</strong>
+          </p>
+          <p>
+            <strong>Moderatörler:</strong> Salim Şentürk – Murat Baloğlu
+          </p>
+          <div className="row justify-content-center event-container">
+            <div className="col-lg-12">
+              <div className="event-schedule">
+                {eventList5.map(
                   (
                     {
                       time,

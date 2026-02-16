@@ -1,3 +1,9 @@
 .schedule-section {
-    width: 100% 
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #000 0%,
+    #26294d 55%,
+    #505478 100%
+  );
 }

@@ -34,53 +34,53 @@ export const emails = [
 export const numbers = ["+90 (555) 875 33 96"];
 export const eventList1: Event[] = [
   {
-    time: "09:00-09:10",
-    eventName: "AÇILIŞ KONUŞMASI",
+    time: "09.00–09.10",
+    eventName: "Açılış Konuşması",
     omitPresentation: true,
-    presentation: { speaker: "" },
+    presentation: { speaker: "Ender Ofluoğlu – Ülkün Ünsal" },
     discussion: { speaker: "" },
   },
   {
-    time: "09:10-09:25",
-    eventName: "KOMPLİKASYON MU? MALPRAKTİS Mİ?",
+    time: "09.10–09.25",
+    eventName: "Komplikasyon mu? Malpraktis mi?",
     omitPresentation: true,
-    presentation: { speaker: "PROF. DR. MEHMET ZİLELİ" },
+    presentation: { speaker: "Prof. Dr. Mehmet Zileli" },
     discussion: { speaker: "" },
   },
   {
-    time: "09:25-09:40",
-    eventName: "OLGU-1",
-    presentation: { speaker: "Yahya Güvenç" },
+    time: "09.25–09.40",
+    eventName: "Olgu-1: C6-7 Dislokasyon-Revizyon",
+    presentation: { speaker: "Dr. Canan Subaşı Kalaycı" },
     discussion: { speaker: "" },
   },
   {
-    time: "09:40-09:55",
-    eventName: "OLGU-2",
-    presentation: { speaker: "" },
+    time: "09.40–09.55",
+    eventName: "Olgu-2: C1-2 Fiksasyon",
+    presentation: { speaker: "Dr. Umut Tan Sevgi" },
     discussion: { speaker: "" },
   },
   {
-    time: "09:55-10:10",
-    eventName: "OLGU-3",
-    presentation: { speaker: "" },
+    time: "09.55–10.10",
+    eventName: "Olgu-3: C7 Fraktürü sonrası Pull-out",
+    presentation: { speaker: "Dr. Ahmet Sancar Topal" },
     discussion: { speaker: "" },
   },
   {
-    time: "10:10-10:25",
-    eventName: "OLGU-4",
-    presentation: { speaker: "" },
+    time: "10.10–10.25",
+    eventName: "Olgu-4: Kifoplasti sonrası Korpektomiye gidiş",
+    presentation: { speaker: "Dr. Efecan Erişken" },
     discussion: { speaker: "" },
   },
   {
-    time: "10:25-10:40",
-    eventName: "OLGULAR EŞLİĞİNDE: KAÇINMA VE YÖNETME",
+    time: "10.25–10.40",
+    eventName: "Olgular Eşliğinde: Kaçınma ve Yönetme",
     omitPresentation: true,
-    presentation: { speaker: "Yusuf Duransoy" },
+    presentation: { speaker: "Kamil Sucu" },
     discussion: { speaker: "" },
   },
   {
-    time: "10:40-11:00",
-    eventName: "KAHVE ARASI",
+    time: "10.40–11.00",
+    eventName: "Kahve Arası",
     omitPresentation: true,
     presentation: { speaker: "" },
     discussion: { speaker: "" },
@@ -88,39 +88,39 @@ export const eventList1: Event[] = [
 ];
 export const eventList2: Event[] = [
   {
-    time: "11:00-11:15",
-    eventName: "OLGU-1",
-    presentation: { speaker: "Mesut Mete" },
+    time: "11.00–11.15",
+    eventName: "Olgu-1: Lomber enstrüman sonrası 6. Kranial sinir paralizisi",
+    presentation: { speaker: "Dr. M. Fatih Sarı" },
     discussion: { speaker: "" },
   },
   {
-    time: "11:15-11:30",
-    eventName: "OLGU-2",
-    presentation: { speaker: "Ülkün Ünsal" },
+    time: "11.15–11.30",
+    eventName: "Olgu-2: Lomber Dar kanal Cerrahisi Revizyonu",
+    presentation: { speaker: "Dr. Bilal Bahadır Akbulut" },
     discussion: { speaker: "" },
   },
   {
-    time: "11:30-11:45",
-    eventName: "OLGU-3",
-    presentation: { speaker: "İsmail İştemen" },
+    time: "11.30–11.45",
+    eventName: "Olgu-3: Dejeneratif omurga cerrahisi revizyonu",
+    presentation: { speaker: "Dr. Eyüp Varol" },
     discussion: { speaker: "" },
   },
   {
-    time: "11:45-12:00",
-    eventName: "OLGU-4",
-    presentation: { speaker: "Salim Şentürk" },
+    time: "11.45–12.00",
+    eventName: "Olgu-4",
+    presentation: { speaker: "Dr. Şafak Çine" },
     discussion: { speaker: "" },
   },
   {
-    time: "12:00-12:15",
-    eventName: "OLGULAR EŞLİĞİNDE: KAÇINMA VE YÖNETME",
+    time: "12.00–12.15",
+    eventName: "Olgular Eşliğinde: Kaçınma ve Yönetme",
     omitPresentation: true,
     presentation: { speaker: "Ender Ofluoğlu" },
     discussion: { speaker: "" },
   },
   {
-    time: "12:15-13:15",
-    eventName: "ÖĞLEN YEMEĞİ",
+    time: "12.15–13.15",
+    eventName: "Öğlen Yemeği",
     omitPresentation: true,
     presentation: { speaker: "" },
     discussion: { speaker: "" },
@@ -128,33 +128,39 @@ export const eventList2: Event[] = [
 ];
 export const eventList3: Event[] = [
   {
-    time: "13:15-13:30",
-    eventName: "OLGU-1",
-    presentation: { speaker: "Erkin Sönmez" },
+    time: "13.15–13.30",
+    eventName: "Olgu-1: Uterus Ca Torakal Met",
+    presentation: { speaker: "Dr. Salim Katar" },
     discussion: { speaker: "" },
   },
   {
-    time: "13:30-13:45",
-    eventName: "OLGU-2",
-    presentation: { speaker: "Murat Baloğlu" },
+    time: "13.30–13.45",
+    eventName: "Olgu-2: Sakrum Tümörü",
+    presentation: { speaker: "Dr. Güçlühan Güçlü" },
     discussion: { speaker: "" },
   },
   {
-    time: "13:45-14:00",
-    eventName: "OLGU-3",
-    presentation: { speaker: "İsmail Bozkurt" },
+    time: "13.45–14.00",
+    eventName: "Olgu-3: Primer Omurga",
+    presentation: { speaker: "Dr. İsmail İştemen" },
     discussion: { speaker: "" },
   },
   {
-    time: "14:00-14:15",
-    eventName: "OLGULAR EŞLİĞİNDE: KAÇINMA VE YÖNETME",
+    time: "14.00–14.15",
+    eventName: "Olgu-4: Lomber Transforaminal enjeksiyon sonrası Apse",
+    presentation: { speaker: "Dr. İlker Deniz Cingöz" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "14.15–14.30",
+    eventName: "Olgular Eşliğinde: Kaçınma ve Yönetme",
     omitPresentation: true,
     presentation: { speaker: "Süleyman Çaylı" },
     discussion: { speaker: "" },
   },
   {
-    time: "14:15-14:30",
-    eventName: "KAHVE ARASI",
+    time: "14.30–14.45",
+    eventName: "Kahve Arası",
     omitPresentation: true,
     presentation: { speaker: "" },
     discussion: { speaker: "" },
@@ -162,51 +168,65 @@ export const eventList3: Event[] = [
 ];
 export const eventList4: Event[] = [
   {
-    time: "14:30-14:45",
-    eventName: "OLGU-1",
+    time: "14.30–14.45",
+    eventName: "Olgu-1: Erişkin Deformite",
+    presentation: { speaker: "Dr. İsmail Bozkurt" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "14.45–15.00",
+    eventName: "Olgu-2: Erişkin Deformite Komplikasyonu",
+    presentation: { speaker: "Dr. Hakan Millet" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "15.15–15.30",
+    eventName: "Olgu-3: Erişkin Deformite Komplikasyonu",
+    presentation: { speaker: "Dr. Baran Uyanık" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "15.30–15.45",
+    eventName: "Olgu-4: Lomber Distal Junction Kifozu",
+    presentation: { speaker: "Dr. Emin Aksu" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "15.45–16.00",
+    eventName: "Olgular Eşliğinde: Kaçınma ve Yönetme",
+    omitPresentation: true,
     presentation: { speaker: "Mehmet Aydoğan" },
-    discussion: { speaker: "" },
-  },
-  {
-    time: "14:45-15:00",
-    eventName: "OLGU-2",
-    presentation: { speaker: "Onur Yaman" },
-    discussion: { speaker: "" },
-  },
-  {
-    time: "15:00-15:30",
-    eventName: "OLGU-3",
-    presentation: { speaker: "Numan Karaaslan" },
-    discussion: { speaker: "" },
-  },
-  {
-    time: "15:30-15:45",
-    eventName: "OLGU-4",
-    presentation: { speaker: "Güçlühan Güçlü" },
-    discussion: { speaker: "" },
-  },
-  {
-    time: "15:45-16:00",
-    eventName: "OLGULAR EŞLİĞİNDE: KAÇINMA VE YÖNETME",
-    omitPresentation: true,
-    presentation: { speaker: "Ömer Akçalı" },
-    discussion: { speaker: "" },
-  },
-  {
-    time: "16:00",
-    eventName: "KAPANIŞ",
-    omitPresentation: true,
-    presentation: { speaker: "" },
     discussion: { speaker: "" },
   },
 ];
 
 
-// If your app expects eventList5..8 to exist, keep them as empty arrays:
-export const eventList5: Event[] = [];
+export const eventList5: Event[] = [
+  {
+    time: "16.00–16.15",
+    eventName: "Olgu 1",
+    presentation: { speaker: "" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "16.15–16.30",
+    eventName: "Olgu 2",
+    presentation: { speaker: "" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "16.30–16.45",
+    eventName: "Olgu 3",
+    presentation: { speaker: "" },
+    discussion: { speaker: "" },
+  },
+  {
+    time: "16.45–17.00",
+    eventName: "Olgu 4",
+    presentation: { speaker: "" },
+    discussion: { speaker: "" },
+  },
+];
 export const eventList6: Event[] = [];
 export const eventList7: Event[] = [];
 export const eventList8: Event[] = [];
-
-
-
