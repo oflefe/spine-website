@@ -61,8 +61,8 @@ export const eventList1: Event[] = [
   },
   {
     time: "09.55–10.10",
-    eventName: "Olgu-3: C7 Fraktürü sonrası Pull-out",
-    presentation: { speaker: "Dr. Ahmet Sancar Topal" },
+    eventName: "OLGU-3 Ankilozan Spondilitli Serviikal Fraktür",
+    presentation: { speaker: "DR.ARZU İLBAY" },
     discussion: { speaker: "" },
   },
   {
@@ -107,7 +107,7 @@ export const eventList2: Event[] = [
   },
   {
     time: "11.45–12.00",
-    eventName: "Olgu-4",
+    eventName: "OLGU-4 Uzun segment Füzyon sonrası PJK",
     presentation: { speaker: "Dr. Şafak Çine" },
     discussion: { speaker: "" },
   },
@@ -168,13 +168,13 @@ export const eventList3: Event[] = [
 ];
 export const eventList4: Event[] = [
   {
-    time: "14.30–14.45",
+    time: "14.45–15.00",
     eventName: "Olgu-1: Erişkin Deformite",
     presentation: { speaker: "Dr. İsmail Bozkurt" },
     discussion: { speaker: "" },
   },
   {
-    time: "14.45–15.00",
+    time: "15.00–15.15",
     eventName: "Olgu-2: Erişkin Deformite Komplikasyonu",
     presentation: { speaker: "Dr. Hakan Millet" },
     discussion: { speaker: "" },
@@ -204,14 +204,14 @@ export const eventList4: Event[] = [
 export const eventList5: Event[] = [
   {
     time: "16.00–16.15",
-    eventName: "Olgu 1",
-    presentation: { speaker: "" },
+    eventName: "OLGU 1-C7 fraktürü sonrası Pull-out",
+    presentation: { speaker: "DR.AHMET SANCAR TOPAL" },
     discussion: { speaker: "" },
   },
   {
     time: "16.15–16.30",
-    eventName: "Olgu 2",
-    presentation: { speaker: "" },
+    eventName: "OLGU 2 Lomber Komşu segment hastalığı",
+    presentation: { speaker: "DR.SAMİ AYVAZ" },
     discussion: { speaker: "" },
   },
   {
